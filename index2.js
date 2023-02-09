@@ -1,5 +1,5 @@
 let maincontent = document.getElementById("contents").innerHTML;
-alert('Wellcom " ' + localStorage.getItem("name") + '"\nYou Are Loged-In To The Library As A User.');
+alert('Welcome " ' + localStorage.getItem("name") + '"\nYou Are Loged-In To The Library As A User.');
 
 document.getElementById("Uname").innerHTML = localStorage.getItem('name');
 document.getElementById("Uid").innerHTML = localStorage.getItem('id');
